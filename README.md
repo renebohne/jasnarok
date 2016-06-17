@@ -1,7 +1,7 @@
 # jasnarok
 code for jasnarok
 
-I write code for JASNAROK:
+I write code for JASNAROK: jasnarok.com
 
 # CircularMask
 Code for the circular mask that has 60 smart pixels. 
