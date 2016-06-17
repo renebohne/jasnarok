@@ -20,8 +20,8 @@ void setup()
   
   String portName = "COM1";//"COM8";//Serial.list()[1];
   System.out.println(portName);
-  //myPort = new Serial(this, portName, 57600);
-  //myPort.bufferUntil(10);    
+  myPort = new Serial(this, portName, 57600);
+  myPort.bufferUntil(10);    
   opc = new SerialNeopixel(this, myPort);
  
   
